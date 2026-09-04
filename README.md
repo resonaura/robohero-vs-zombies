@@ -62,10 +62,9 @@ You can run the `.swf` binaries in any standalone Flash player or local Ruffle d
 
 ## Controls
 
-- **Move / Jump**: Arrow Keys or `W` `A` `D`
-- **Aim / Shoot**: Mouse cursor + Left Click
-- **Switch Weapons**: Number Keys
-- **Pause**: `P` or onscreen button
+- **Move / Jump**: Arrow Keys
+- **Aim / Shoot**: Mouse Cursor + Left Click
+- **Pause**: `Escape` or Onscreen Button
 
 ---
 
