@@ -12,15 +12,14 @@ Retro 2D action platformer and shooter developed at age 14 under indie team **GR
   <img src="media/robohero-gameplay.png" width="800" alt="Robohero vs Zombies Gameplay" />
 </p>
 
-## The Story
+## The Story: Two Iterations and Data Loss
 
 I began writing code at age 12, experimenting with simple scripts and game mechanics. By age 14, together with childhood friends, we formed our first game development group: **GREENJIM STUDIOS**.
 
-*Robohero vs Zombies* was our most ambitious project from that era:
-- Multi-tier platforming with physics, jumping arcs, and gravity calculations.
-- Weapon and ammunition management featuring primary infinite fire and limited heavy shells.
-- Dynamic environmental effects including rain particle generators and night backdrops.
-- Coin collection systems, health tracking, and multi-page level unlock progression.
+The project spanned two distinct development chapters:
+
+- **The First Iteration (`rvz-old.swf`)**: Our initial prototype. During active work, storage corruption destroyed the unversioned project files, wiping out the source `.fla` assets.
+- **Rebuilding from Scratch (`rvz.swf`)**: Instead of abandoning the idea, we started fresh. We redesigned the interface with neon styling, revamped HUD displays, rain particle effects, and an expandable level selection map.
 
 <p align="center">
   <img src="media/robohero-menu.png" width="800" alt="Robohero vs Zombies Main Menu" />
@@ -28,18 +27,16 @@ I began writing code at age 12, experimenting with simple scripts and game mecha
 
 ---
 
-## The Origin of Defensive Engineering
+## The Lessons That Shaped My Career
 
-During the final stages of development, the working machine suffered storage corruption. Without version control in place, the original unversioned `.fla` source project was destroyed.
+Losing the original project at 14 taught foundational engineering habits:
+1. Code without automated version control is temporary.
+2. Backups must be redundant and distributed across independent media.
+3. Rebuilding from a clean slate often produces cleaner architecture than patching legacy attempts.
 
-That experience taught an early, lasting lesson about software engineering:
-1. Code without automated version control does not truly exist.
-2. Backups must be redundant and distributed.
-3. System architecture must always assume catastrophic failure modes.
+That early experience sparked an enduring interest in version control workflows, reliable infrastructure, and defensive systems design.
 
-That painful loss sparked an enduring interest in version control workflows, reliable infrastructure, and low-level systems programming that later defined my career.
-
-While the editable source files were lost, compiled `.swf` binaries survived on separate storage media and are preserved here. The playable build captures the working vertical slice (Level 1) frozen right as the corruption happened.
+The preserved `rvz.swf` represents the working vertical slice (Level 1) of that second iteration.
 
 ---
 
@@ -57,9 +54,9 @@ While the editable source files were lost, compiled `.swf` binaries survived on 
 Open **[resonaura.github.io/robohero-vs-zombies](https://resonaura.github.io/robohero-vs-zombies/)** to run the game through the [Ruffle](https://ruffle.rs/) WebAssembly Flash emulator. No browser plugins required.
 
 ### Local Playback
-You can run `rvz.swf` in any standalone Flash player or local Ruffle desktop binary:
-- `rvz.swf`: Final playable compiled build.
-- `rvz-old.swf`: Earlier milestone snapshot recovered from storage.
+You can run the `.swf` binaries in any standalone Flash player or local Ruffle desktop binary:
+- `rvz.swf`: Rebuilt second version with revamped neon HUD and Level 1 vertical slice.
+- `rvz-old.swf`: The original milestone before project corruption.
 
 ---
 
