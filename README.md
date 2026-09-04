@@ -7,6 +7,7 @@ Retro 2D action platformer and shooter developed at age 14 under indie team **GR
 [![Emulator](https://img.shields.io/badge/Emulator-Ruffle%20(WASM)-blue.svg?style=flat-square)](#)
 [![Team](https://img.shields.io/badge/Team-GREENJIM%20STUDIOS-green.svg?style=flat-square)](#)
 [![Play](https://img.shields.io/badge/Play-In%20Browser-brightgreen.svg?style=flat-square)](https://resonaura.github.io/robohero-vs-zombies/)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/resonaura)
 
 <p align="center">
   <img src="media/robohero-gameplay.png" width="800" alt="Robohero vs Zombies Gameplay" />
