@@ -39,7 +39,7 @@ That experience taught an early, lasting lesson about software engineering:
 
 That painful loss sparked an enduring interest in version control workflows, reliable infrastructure, and low-level systems programming that later defined my career.
 
-While the editable source files were lost, compiled `.swf` binaries survived on separate storage media and are preserved here.
+While the editable source files were lost, compiled `.swf` binaries survived on separate storage media and are preserved here. The playable build captures the working vertical slice (Level 1) frozen right as the corruption happened.
 
 ---
 
